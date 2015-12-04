@@ -77,7 +77,7 @@ for url in $urls
 do
 	found=1
 	nr=1
-	link="https://api.github.com$url?page=1&per_page=100"
+	link="https://api.github.com$url?page=1&per_page=1000"
 	headerfile=/tmp/curlheaders.$RANDOM.$RANDOM.$RANDOM.$$
 	while [ "$link" != "" ]; do
 		echo Fetching repositories, $link
