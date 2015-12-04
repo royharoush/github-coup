@@ -1,7 +1,7 @@
 #!/bin/bash
 export SHELL=$(type -P bash)
 
-targetdir="/var/github"
+targetdir="/var/github/$1"
 user="$1"
 token=ACCESSTOKEN
 urls="/users/$user/repos /users/$user/starred"
