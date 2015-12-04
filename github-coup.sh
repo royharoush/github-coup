@@ -2,7 +2,7 @@
 export SHELL=$(type -P bash)
 
 targetdir="/var/github"
-user=GITHUBUSER
+user="$1"
 token=ACCESSTOKEN
 urls="/users/$user/repos /users/$user/starred"
 
