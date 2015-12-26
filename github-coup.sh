@@ -6,6 +6,8 @@ user="$1"
 token=ACCESSTOKEN
 urls="/users/$user/repos /users/$user/starred"
 
+#Roy: this script was modified to accept the username to be replicated from the command line 
+#just type in the script with the username after words: github-coup.sh royharoush
 # actions
 # all actions get the following parameter
 # $repo $repodir $repobasename $username
